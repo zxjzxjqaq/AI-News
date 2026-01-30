@@ -328,7 +328,7 @@ storage:
 ai:
   # LiteLLM 模型格式: provider/model_name
   # 示例:
-  deepseek/deepseek-chat (DeepSeek)
+  #   - deepseek/deepseek-chat (DeepSeek)
   #   - openai/gpt-4o (OpenAI)
   #   - gemini/gemini-2.5-flash (Google Gemini)
   #   - anthropic/claude-3-5-sonnet (Anthropic)
@@ -336,11 +336,11 @@ ai:
   # 完整列表: https://docs.litellm.ai/docs/providers
   # 如果你对于看英文文档比较头疼，那么可以点击页面右下角的 【Ask AI】 ,用中文询问怎么配置 
   
-  model: "deepseek-ai"
+  model: "openai/deepseek-chat"
 
   api_key: "sk-8b05e5ea42be4b58851cb2fa44eb4cf0"                       # API Key（建议使用环境变量 AI_API_KEY）
   
-  api_base: "https://platform.deepseek.com/api_keys"                      # 自定义 API 端点（可选，大多数情况留空）
+  api_base: "https://api.deepseek.com"                      # 自定义 API 端点（可选，大多数情况留空）
                                     # 示例: https://api.openai.com/v1（自建代理或兼容接口）
                                     #
                                     # 💡 超级重要：连接任意兼容 OpenAI 协议的模型商
