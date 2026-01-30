@@ -338,7 +338,7 @@ ai:
   
   model: "openai/deepseek-chat"
 
-  api_key: "sk-8b05e5ea42be4b58851cb2fa44eb4cf0"                       # API Key（建议使用环境变量 AI_API_KEY）
+  api_key: "sk-c47059e065e54f578bc21c6dfb2ad4aa"                       # API Key（建议使用环境变量 AI_API_KEY）
   
   api_base: "https://api.deepseek.com"                      # 自定义 API 端点（可选，大多数情况留空）
                                     # 示例: https://api.openai.com/v1（自建代理或兼容接口）
